@@ -1,0 +1,76 @@
+﻿@model List<ProyectoWebReservaHotel.Models.trabajador>
+@{
+    ViewBag.Title = "Index";
+}
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE TRABAJADORES
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a href="~/Trabajador/AgregarModificarTrabajador"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO TRABAJADOR</a>
+        </li>
+        <li>
+            <a class="active" href="~/Trabajador/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE TRABAJADORES</a>
+        </li>
+    </ul>
+</div>
+
+@using (Html.BeginForm("Index", "Trabajador", FormMethod.Post))
+{
+    <div class="text-left">
+        @Html.Label("Buscar: ")
+        @Html.TextBox("Criterio")
+        <button type="submit" class="btn btn-primary">Buscar</button>
+    </div>
+}
+<!-- Content -->
+<div class="container-fluid">
+    <div class="table-responsive">
+        <table class="table table-dark table-sm">
+            <thead>
+                <tr class="text-center roboto-medium">
+                    <th>ID</th>
+                    <th>CARGO</th>
+                    <th>TIPO DOCUMENTO</th>
+                    <th>Nro DOCUMENTO</th>
+                    <th>NOMBRES Y APELLIDOS</th>
+                    <th>DIRECCION</th>
+                    <th>TELÉFONO</th>
+                    <th>EMAIL</th>
+                    <th>SUELDO</th>
+                    <th>ESTADO</th>
+                    <th>ACCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@(item.idtrabajador)</td>
+                        <td>@(item.tipo_trabajador.descripcion)</td>
+                        <td>@(item.tipo_documento)</td>
+                        <td>@(item.numero_documento)</td>
+                        <td>@(item.nombres) @(item.apellidos)</td>
+                        <td>@(item.direccion)</td>
+                        <td>@(item.telefono)</td>
+                        <td>@(item.email)</td>
+                        <td>@(item.sueldo)</td>
+                        <td>@(item.estado == "A" ? "Activo" : "Inactivo")</td>
+                        <td>
+                            <a href="~/Trabajador/AgregarModificarTrabajador/@item.idtrabajador" class="btn btn-info">Modificar</a>
+                           
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

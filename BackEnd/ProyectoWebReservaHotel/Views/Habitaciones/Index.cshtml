@@ -1,0 +1,100 @@
+﻿@model List<ProyectoWebReservaHotel.Models.habitacion>
+@{
+    ViewBag.Title = "Habitacion";
+}
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE HABITACIONES
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a href="~/Habitaciones/AgregarModificarHabitaciones"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR HABITACION</a>
+        </li>
+        <li>
+            <a class="active" href="~/Habitaciones/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE HABITACIONES</a>
+        </li>
+    </ul>
+</div>
+
+
+
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("Index", "Habitaciones", FormMethod.Post))
+    {
+        <div class="text-left">
+            @Html.Label("Buscar: ")
+            @Html.TextBox("Criterio")
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    }
+    <div class="table-responsive">
+        <table class="table table-dark table-sm">
+            <thead>
+                <tr class="text-center roboto-medium">
+
+                    <th>ID</th>
+                    <th>NUMERO</th>
+                    <th>PISO</th>
+                    <th>DESCRIPCION</th>
+                    <th>CARACTERISTICAS</th>
+                    <th>PRECIO DIARIO</th>
+                    <th>ESTADO</th>
+                    <th>ID TIPO HABITACION</th>
+                    <th>ACCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr class="text-center">
+                    <td>@(item.idhabitacion)</td>
+                    <td>@(item.numero)</td>
+                    <td>@(item.piso)</td>
+                    <td>@(item.descripcion)</td>
+                    <td>@(item.caracteristicas)</td>
+                    <td>@(item.precio_diario)</td>
+                    <td>
+                        @{
+                            switch (item.estado)
+                            {
+                                case "1":
+
+                                    <div>Inactivo</div>
+                                    break;
+                                case "2":
+                                    <div>Activo</div>
+                                    break;
+                                case "3":
+
+                                    <div>Disponible</div>
+                                    break;
+                                case "4":
+                                    <div>Reservado</div>
+                                    break;
+                                case "5":
+
+                                    <div>Ocupado</div>
+                                    break;
+                            }
+                        }
+                    </td>
+                    <td>@(item.tipo_habitacion.descripcion)</td>
+                    <td>
+                        <a href="~/Habitaciones/AgregarModificarHabitaciones/@item.idhabitacion" class="btn btn-success">Modificar</a>
+
+                </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

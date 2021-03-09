@@ -1,0 +1,117 @@
+﻿@model ProyectoWebReservaHotel.Models.pago
+@{
+    ViewBag.Title = "RealizarPago";
+    //List<ProyectoWebReservaHotel.Models.cliente> cliente = ViewBag.cliente;
+    ProyectoWebReservaHotel.Models.reserva reserva = ViewBag.reserva;
+}
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR PAGO A RESERVA
+    </h3>
+    <p class="text-justify">
+    </p>
+</div>
+
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a href="~/Reservas/AgregarModificarReservas"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO RESERVA</a>
+        </li>
+        <li>
+            <a href="~/Reservas/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE RESERVAS</a>
+        </li>
+        <li>
+            <a href="#"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; RESERVA POR CONFIRMAR</a>
+        </li>
+        
+    </ul>
+</div>
+
+<!-- Content -->
+<div class="container-fluid">
+    @using (Html.BeginForm("GuardarPago", "Reservas", FormMethod.Post, new { id = "frm-pagos" }))
+    {
+        <fieldset>
+            <legend><i class="far fa-address-card"></i> &nbsp; Información del Pago</legend>
+            <div class="container-fluid">
+
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.reserva)
+                        <select name="idreserva" class="form-control">
+                            <option value="@reserva.idreserva">@reserva.idreserva</option>
+                        </select>
+                        @Html.ValidationMessageFor(x => x.idreserva, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-4">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.tipo_comprobante)
+                        <select name="tipo_comprobante" class="form-control">
+                            <option @(Model.tipo_comprobante == "F" ? "selected" : "") value="Factura">Factura</option>
+                            <option @(Model.tipo_comprobante == "B" ? "selected" : "") value="Boleta">Boleta</option>
+                        </select>
+                        @Html.ValidationMessageFor(x => x.tipo_comprobante, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.num_comprobante)
+                    @Html.TextBoxFor(x => x.num_comprobante, new { @class = "form-control" }
+                    )
+                    @Html.ValidationMessageFor(x => x.num_comprobante, null, new { @class = "label label-danger" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(x => x.igv)
+                    @Html.TextBoxFor(x => x.igv, new { @class = "form-control"})
+                    @Html.ValidationMessageFor(x => x.igv, null, new { @class = "label label-danger" })
+                </div>
+
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.total_pago)
+                        @Html.TextBoxFor(x => x.total_pago, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.total_pago, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.fecha_emision)
+                        @Html.TextAreaFor(x => x.fecha_emision, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.fecha_emision, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.fecha_pago)
+                        @Html.TextAreaFor(x => x.fecha_pago, new { @class = "form-control" })
+                        @Html.ValidationMessageFor(x => x.fecha_pago, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.estado)
+                        <select name="estado" class="form-control">
+                            @*<option @(Model.estado == "P" ? "selected" : "") value="P">Pendiente</option>*@
+                            <option @(Model.estado == "C" ? "selected" : "") value="C">Cancelado</option>
+                            <option @(Model.estado == "A" ? "selected" : "") value="A">Anulado</option>
+                        </select>
+                        @Html.ValidationMessageFor(x => x.estado, null, new { @class = "label label-danger" })
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <br><br><br>
+
+        <p class="text-center" style="margin-top: 40px;">
+            <button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
+            &nbsp; &nbsp;
+            <button type="submit" class="btn btn-raised btn-info btn-sm"><i class="far fa-save"></i> &nbsp; GUARDAR</button>
+        </p>
+    }
+</div>
+

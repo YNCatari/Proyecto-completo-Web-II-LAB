@@ -1,0 +1,9 @@
+Dominio de alojamiento de proyecto
+front end 
+http://www.hotelsantamaria.somee.com/
+
+back end
+http://hotelsantamaria1.somee.com/
+
+Usuario:admin@upt.pe
+Password:12345

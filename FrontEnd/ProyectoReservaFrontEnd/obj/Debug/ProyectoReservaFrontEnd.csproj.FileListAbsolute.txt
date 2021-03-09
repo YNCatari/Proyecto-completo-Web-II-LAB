@@ -1,0 +1,356 @@
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll.config
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.pdb
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe.config
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.rsp
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe.config
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.rsp
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.AppContext.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Console.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Http.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Sockets.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe.config
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.rsp
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Razor.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Helpers.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Mvc.resources.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CopyComplete
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.pdb
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csprojAssemblyReference.cache
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll.config
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.pdb
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe.config
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.rsp
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe.config
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.rsp
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Managed.Core.targets
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.AppContext.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Console.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Globalization.Calendars.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Http.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Sockets.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.ValueTuple.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe.config
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.rsp
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.Web.Infrastructure.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Razor.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Helpers.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Mvc.resources.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csprojAssemblyReference.cache
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CoreCompileInputs.cache
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CopyComplete
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.pdb
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll.config
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.pdb
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe.config
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.rsp
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe.config
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.rsp
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.AppContext.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Console.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Http.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Sockets.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.ValueTuple.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe.config
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.rsp
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Razor.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Helpers.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Mvc.resources.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csprojAssemblyReference.cache
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CoreCompileInputs.cache
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CopyComplete
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.dll
+C:\Users\YNCatari\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.pdb
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\culqi.net.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.dll
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.xml
+D:\TRABAJO FINAL\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\culqi.net.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.xml
+C:\Users\PC\Documents\GitHub\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll.config
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\ProyectoReservaFrontEnd.pdb
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.exe.config
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csc.rsp
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.exe.config
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\csi.rsp
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.AppContext.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Collections.Immutable.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Console.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Globalization.Calendars.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Http.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Net.Sockets.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Reflection.Metadata.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.ValueTuple.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XmlDocument.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.exe.config
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\vbc.rsp
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\roslyn\VBCSCompiler.exe.config
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\culqi.net.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.Web.Infrastructure.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\EntityFramework.SqlServer.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Newtonsoft.Json.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\nunit.framework.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\RestSharp.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Diagnostics.DiagnosticSource.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Razor.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Deployment.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Webpages.Razor.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Helpers.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\System.Web.Mvc.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Razor.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Deployment.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Webpages.Razor.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Helpers.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\es\System.Web.Mvc.resources.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csprojAssemblyReference.cache
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CoreCompileInputs.cache
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.csproj.CopyComplete
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.dll
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\obj\Debug\ProyectoReservaFrontEnd.pdb
+D:\2021_REC\proyecto\version rafa\proyectogrupalmvc-grupojorgeluis\FrontEnd\ProyectoReservaFrontEnd\bin\Rotativa.dll

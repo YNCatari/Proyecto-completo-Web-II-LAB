@@ -1,0 +1,113 @@
+﻿@model List<ProyectoWebReservaHotel.Models.producto>
+@{
+    ViewBag.Title = "VerGraficosCircular";
+    string contenido = "";
+    string resultado = "";
+    double valor = 0;
+    int total = 0;
+    double porcentaje = 0.0;
+    double totalporcentaje = 0.0;
+}
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE REPORTES DE PRODUCTOS
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<table class="text-center" style="width:80%">
+    <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Nombre</th>
+            <th>Descripcion</th>
+            <th>Cantidad</th>
+            <th>Precio</th>
+            <th>Valor</th>
+            <th>Porcentaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var q in Model)
+        {
+            total += q.idproducto.ToString().Count();
+        }
+        @foreach (var m in Model)
+        {
+            resultado = m.nombre;
+            valor = m.idproducto.ToString().Count();
+            contenido = contenido + "[ '" + resultado + "'," + valor + "],";
+
+            porcentaje = ((valor * 100) / total);
+            totalporcentaje += porcentaje;
+            <tr>
+                <th>@(m.idproducto)</th>
+                <th>@(m.nombre)</th>
+                <th>@(m.descripcion)</th>
+                <th>@(m.cantidad)</th>
+                <th>@(m.precio)</th>
+                <th>@(m.idproducto.ToString().Count())</th>
+                <th>@Math.Round(@porcentaje, 2)%</th>
+            </tr>
+        }
+        <tr>
+            <th></th>
+            <th>Total</th>
+            <th>@total</th>
+            <th>@totalporcentaje %</th>
+        </tr>
+
+    </tbody>
+</table>
+<br />
+<br />
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+
+<script type="text/javascript">
+    $(function () {
+        $(document).ready(function () {
+            Highcharts.chart('container', {
+              chart: {
+                type: 'pie',
+                options3d: {
+                  enabled: true,
+                  alpha: 45,
+                  beta: 0
+                }
+              },
+              title: {
+                  text: 'Hotel Santa Maria'
+              },
+              accessibility: {
+                point: {
+                  valueSuffix: '%'
+                }
+              },
+              tooltip: {
+                pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+              },
+              plotOptions: {
+                pie: {
+                  allowPointSelect: true,
+                  cursor: 'pointer',
+                  depth: 35,
+                  dataLabels: {
+                    enabled: true,
+                    format: '{point.name}'
+                  }
+                }
+              },
+              series: [{
+                type: 'pie',
+                name: 'Porcentaje',
+                data: [@Html.Raw(contenido)]
+              }]
+            });
+        })
+    })
+</script>
+

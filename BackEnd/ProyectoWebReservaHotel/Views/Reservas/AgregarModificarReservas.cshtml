@@ -1,0 +1,158 @@
+﻿@model ProyectoWebReservaHotel.Models.reserva
+@{
+    ViewBag.Title = "AgregarModificarReservas";
+
+    List<ProyectoWebReservaHotel.Models.habitacion> Habi = ViewBag.Habitaciones;
+    List<ProyectoWebReservaHotel.Models.cliente> Cli = ViewBag.Cliente;
+}
+
+
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR RESERVA
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a class="active" href="~/Reservas/AgregarModificarReservas"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO RESERVA</a>
+        </li>
+        <li>
+            <a href="~/Reservas/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE RESERVAS</a>
+        </li>
+        <li>
+            <a href="~/Reservas/ReservasPorConfirmar"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; RESERVA POR CONFIRMAR</a>
+        </li>
+    </ul>
+</div>
+
+<!-- Content -->
+<div class="container-fluid">
+    @using (Html.BeginForm("Guardar", "Reservas", FormMethod.Post, new { id = "frm-reservas" }))
+    {
+
+        <fieldset>
+            <legend><i class="far fa-address-card"></i> &nbsp; Información Reserva</legend>
+            <div class="container-fluid">
+                @Html.HiddenFor(x => x.idreserva)
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.idreserva)
+                            @Html.TextBoxFor(x => x.idreserva, new { @class = "form-reservas", disabled = true })
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.habitacion)
+                            <select name="idhabitacion" class="form-control">
+                                <option @(Model.idhabitacion.Equals("") ? "selected" : "") value="">---Seleccione---</option>
+
+                                @foreach (var item in Habi)
+                                {
+                                    <option @(Model.idhabitacion.Equals(item.idhabitacion) ? "selected" : "") value="@item.idhabitacion">@item.numero</option>
+                                }
+
+                            </select>
+                            @Html.ValidationMessageFor(x => x.idhabitacion, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.cliente)
+                            <select name="idcliente" class="form-control">
+                                <option @(Model.idcliente.Equals("") ? "selected" : "") value="">---Seleccione---</option>
+                                @foreach (var item in Cli)
+                                {
+                                    <option @(Model.idcliente.Equals(item.idcliente) ? "selected" : "") value="@item.idcliente">@(item.numero_documento) @(item.apellidos) @(item.nombres)</option>
+                                }
+                            </select>
+                            @Html.ValidationMessageFor(x => x.idcliente, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+
+                    @{int idtrabajador = Convert.ToInt32(ViewBag.idTra);}
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.idtrabajador)
+                            @Html.TextBoxFor(x => idtrabajador, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.idtrabajador, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.tipo_reserva)
+                            <select name="tipo_reserva" class="form-control">
+                                <option @(Model.tipo_reserva == "Presencial" ? "selected" : "") value="Presencial">Presencial</option>
+                                <option @(Model.tipo_reserva == "Online" ? "selected" : "") value="Online">Online</option>
+                            </select>
+                            @Html.ValidationMessageFor(x => x.tipo_reserva, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.fecha_ingreso)
+                        @Html.TextBoxFor(x => x.fecha_ingreso, new { @class = "form-control" }
+                        )
+                        @Html.ValidationMessageFor(x => x.fecha_ingreso, null, new { @class = "label label-danger" })
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(x => x.fecha_salida)
+                        @Html.TextBoxFor(x => x.fecha_salida, new { @class = "form-control" }
+                        )
+                        @Html.ValidationMessageFor(x => x.fecha_salida, null, new { @class = "label label-danger" })
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.costo_alojamiento)
+                            @Html.TextBoxFor(x => x.costo_alojamiento, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.costo_alojamiento, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.observacion)
+                            @Html.TextAreaFor(x => x.observacion, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.observacion, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.estado)
+                            <select name="estado" class="form-control">
+                                <option @(Model.estado == "1" ? "selected" : "") value="1">Anulado</option>
+                                <option @(Model.estado == "2" ? "selected" : "") value="2">Pendiente</option>
+                                <option @(Model.estado == "3" ? "selected" : "") value="3">Pagado</option>
+                                <option @(Model.estado == "3" ? "selected" : "") value="4">Pagado/Checking</option>
+                                .<option @(Model.estado == "3" ? "selected" : "") value="5">Pagado/Checkout</option>
+                            </select>
+                            @Html.ValidationMessageFor(x => x.estado, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </fieldset>
+        <br><br><br>
+
+        <p class="text-center" style="margin-top: 40px;">
+            <button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
+            &nbsp; &nbsp;
+            <button type="submit" class="btn btn-raised btn-info btn-sm"><i class="far fa-save"></i> &nbsp; GUARDAR</button>
+        </p>
+    }
+</div>
+
+

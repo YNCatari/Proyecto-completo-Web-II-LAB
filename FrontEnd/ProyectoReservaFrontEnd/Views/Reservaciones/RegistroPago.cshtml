@@ -1,0 +1,263 @@
+﻿
+@{
+    ViewBag.Title = "Reservaciones";
+    //ProyectoReservaFrontEnd.Models.reserva reserva = ViewBag.reservasdatos;
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link href="~/Source/css/style2.css" rel="stylesheet" />
+}
+<!-- ======= Team Reservaciones ======= -->
+<section id="team" class="team">
+    <div class="content">
+        <div class="content__inner">
+            <div class="container">
+                <h2 class="content__title content__title--m-sm">Reservar una habitación en nuestro hotel y disfruta de una experiencia inolvidable</h2>
+            </div>
+            <div class="container overflow-hidden">
+                <div class="multisteps-form">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+                            <div class="multisteps-form__progress">
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="User Info" disabled>Registro del Huésped</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Address" disabled>Selección de Habitacion</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Order Info" disabled>Registro de la Reserva</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Message">Registro de Pago</button>
+                                <button class="multisteps-form__progress-btn " type="button" title="Message" disabled>Completo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-8 m-auto">
+                            <!--Registro del Pago-->
+                            <div class="shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                                <h3 class="multisteps-form__title">Datos del Pago</h3>
+                                <hr class="shb-total-separator">
+                                <br />
+                                @using (Html.BeginForm("Index", "Pago", FormMethod.Post, new { id = "frm-resrvaciones" }))
+                                {
+                                    <div class="multisteps-form__content">
+
+                                        @*ID IDPAGO*@
+                                        <div class="form-group">
+                                            @*<label for="idpago">ID pago:</label>*@
+                                            <input type="text" name="idpago" class="form-control" hidden/>
+                                        </div>
+
+
+                                        <div class="row">
+
+                                            <div class="col-12 col-md-4">
+                                                @*ID IDRESERVA*@
+                                                <div class="form-group">
+                                                    <label for="idreserva">ID Reserva:</label>
+                                                    <input type="text" name="idreserva" class="form-control" @*value="@reserva.idreserva"*@/>
+                                                </div>
+
+                                                @*ID TIPO COMPROBANTE*@
+                                                <div class="form-group">
+                                                    <label for="tipo_documento">Tipo Documento:</label>
+                                                    <select name="tipo_comprobante" class="form-control">
+                                                        <option value="F">Factura</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-row mt-0">
+                                            <div class="col-12 col-md-6">
+                                                @*ID NUMERO COMPROBANTE*@
+                                                <div class="form-group">
+                                                    <label for="numComprobante">Numero Comprobante:</label>
+                                                    <input type="number" size="20" name="num_comprobante" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                @*ID IGV*@
+                                                <div class="form-group">
+                                                    <label for="igv">IGV:</label>
+                                                    <input type="number" size="20" name="igv" value="18" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        @*ID FECHA INGRESO*@
+                                        <div class="form-row mt-0">
+                                            <div class="col-12 col-md-6">
+                                                <label for="validarFecha">Fecha de Reserva:</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="dob" name="fecha_emision" @*value="@reserva.fecha_ingreso"*@ required>
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text" name="fecha_emision"><i class="far fa-calendar-alt"></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            @*ID FECHA SALIDA*@
+                                            <div class="col-12 col-md-6">
+                                                <label for="validarFecha">Fecha de Pago:</label>
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" id="dob2" name="fecha_pago" required>
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text" name="fecha_pago"><i class="far fa-calendar-alt"></i></span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br />
+                                        @*DATOS CULQI*@
+                                        <div class="form-row mt-0">
+                                            <div class="col-12 col-md-6">
+                                                <div class="form-group">
+                                                    <label for="email">Correo Electrónico:</label>
+                                                    <input type="text" size="50" data-culqi="card[email]" id="card[email]" name="email" class="form-control" @*value="@reserva.cliente.email"*@>
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <h3 class="multisteps-form__title">Datos de la Tarjeta</h3>
+                                        <hr class="shb-total-separator">
+                                        <br />
+                                        <div class="form-row mt-0">
+                                            <div>
+                                                <label>
+                                                    <span>Número de tarjeta</span>
+                                                    <input type="text" size="20" data-culqi="card[number]" id="card[number]" name="card_number">
+                                                </label>
+                                            </div>
+                                            <div>
+                                                <label>
+                                                    <span>CVV</span>
+                                                    <input type="text" size="4" data-culqi="card[cvv]" id="card[cvv]" name="cvv">
+                                                </label>
+                                            </div>
+
+
+                                            <div>
+                                                <label>
+                                                    <span>Fecha expiración (MM/YYYY)</span>
+                                                    <input size="2" data-culqi="card[exp_month]" id="card[exp_month]" name="expiration_month">
+                                                    <span>/</span>
+                                                    <input size="4" data-culqi="card[exp_year]" id="card[exp_year]" name="expiration_year">
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <label>
+                                                    <span>Descripcion de Venta</span>
+                                                    <input type="text" size="20" data-culqi="descripcion[number]" id="descripcion[number]" name="descripcion">
+                                                </label>
+                                            </div>
+
+                                            <div>
+                                                <label>
+                                                    <span>Monto</span>
+                                                    <input type="number" size="20" data-culqi="total_pago[number]" id="total_pago[number]" name="total_pago" value="@ViewBag.monto">
+                                                </label>
+                                            </div>
+                                            <br />
+
+                                            @*<div class="col-md-6">
+                                                <div class="shb-price-details">
+                                                    <p class="shb-deposit-notice" style="text-align: center">Precio Total</p>
+                                                    <h6 class="shb-deposit-price" data-culqi="total_pago[number]" id="total_pago[number]" name="total_pago" style="text-align: center">S/.70.00</h6>
+                                                </div>
+                                                <br />
+                                            </div>*@
+                                        </div>
+
+
+
+                                        <div class="button-row d-flex mt-4">
+                                            <button id="btn_pagar" type="submit" class="btn btn-danger ml-auto">Realizar Pago</button>
+                                        </div>
+
+                                    </div>
+                                }
+
+                                @*<div class="row-cols-md-auto bx-pull-right">
+                        <div class="shb-price-details">
+                            <p class="shb-deposit-notice" style="text-align: center">Precio Total</p>
+                            <h6 class="shb-deposit-price" style="text-align: center">S/.100.00</h6>
+                        </div>
+                        <br />
+                        <div style="text-align: center">
+                            <a class="btn btn-danger ml-auto js-btn-next" href="#" title="Item Link">Proceder al Pago</a>
+                        </div>
+
+                    </div>*@
+
+                            </div>
+                        </div>
+                        <br />
+
+                    </div>
+                    <br />
+                </div>
+            </div>
+            
+        </div>
+       
+        </div>
+    <script src="~/Source/js/function.js"></script>
+</section><!-- End Team Section -->
+
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+
+    $(function () {
+        $('#dob').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+
+    $(function () {
+        $('#dob2').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+
+</script>
+
+
+
+
+

@@ -1,0 +1,77 @@
+﻿
+@{
+    ViewBag.Title = "Contacto";
+}
+
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="section-title">
+            <span>Contactanos</span>
+            <h2>Contactanos</h2>
+            <p>Tienes alguna duda y necesitas hacer una consulta?</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-6">
+                <div class="info-box mb-4">
+                    <i class="bx bx-map"></i>
+                    <h3>Nuestra dirección</h3>
+                    <p>Av. Augusto B Leguia 437, Tacna</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Envíanos un correo electrónico</h3>
+                    <p>santamariatacna@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <div class="info-box  mb-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Llámanos</h3>
+                    <p>+51 953552525</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" data-aos="fade-up">
+
+            <div class="col-lg-6 ">
+                <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.3426134644064!2d-70.25468238456936!3d-18.009296586108356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acf7a9f1750b1%3A0x9b8ce15e14197281!2sHotel%20Santa%20Maria!5e0!3m2!1ses-419!2spe!4v1613520880046!5m2!1ses-419!2spe" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            </div>
+
+            <div class="col-lg-6">
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese Nombre" required>
+                        </div>
+                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese Correo Electronico" required>
+                        </div>
+                    </div>
+                    <div class="form-group mt-3">
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+                    </div>
+                    <div class="form-group mt-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Ingrese Mensaje" required></textarea>
+                    </div>
+                    <div class="my-3">
+                        <div class="loading">Cargando</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Tu mensaje ha sido enviado. ¡Gracias!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End Contact Section -->

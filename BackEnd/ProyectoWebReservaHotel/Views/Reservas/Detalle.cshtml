@@ -1,0 +1,98 @@
+﻿@model ProyectoWebReservaHotel.Models.reserva
+    @{
+        ViewBag.Title = "Index";
+    }
+    <div class="full-box page-header">
+        <h3 class="text-left">
+            Detalle de Reserva : @Model.idreserva
+        </h3>
+        <p class="text-justify">
+        </p>
+    </div>
+    <div class="container-fluid">
+        <ul class="full-box list-unstyled page-nav-tabs">
+            <li >
+                <a href="~/Reservas/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE RESERVAS</a>
+            </li>
+        </ul>
+    </div>
+        <div class="container-fluid">
+            <div class="table-responsive">
+                <dl class="dl-horizontal">
+
+                    <dd>
+                    <dt>Habitacion</dt>
+                    <dd> N: @Model.habitacion.numero</dd>
+                    <dd> Piso : @Model.habitacion.piso  </dd>
+                    <dd> Tipo : @Model.habitacion.descripcion </dd>
+                    <dd> Precio Diario : @Model.habitacion.precio_diario</dd>
+                    <dt>Cliente</dt>
+                    <dd>Documento de Identidad : @Model.cliente.numero_documento</dd>
+                    <dd> Nombres : @Model.cliente.nombres , @Model.cliente.apellidos</dd>
+                    <dt>Trabajor Encargado</dt>
+                    <dd>Dni : @Model.trabajador.numero_documento</dd>
+                    <dd>Nombres : @Model.trabajador.nombres , @Model.trabajador.apellidos</dd>
+                    <dt>Fecha de Ingreso y Salida </dt>
+                    <dd>Ingreso : @Model.fecha_ingreso</dd>
+                    <dd>Salida : @Model.fecha_salida</dd>
+                    <dt>Observacion</dt>
+                    <dd>@Model.observacion</dd>
+                    <dt>Estado</dt>
+                    <dd>
+                        @{
+                            switch (Model.estado)
+                            {
+                                case "1":
+
+                                    <div>Anulado</div>
+                                    break;
+                                case "2":
+                                    <div>Pendiente</div>
+                                    break;
+                                case "3":
+
+                                    <div>Pagado</div>
+                                    break;
+                                case "4":
+                                    <div>Pagado/Checking</div>
+                                    break;
+                                case "5":
+
+                                    <div>Pagado/Checkout</div>
+                                    break;
+                            }
+                        }
+                    </dd>
+                    <dt>Costo por dia :S/ @Model.costo_alojamiento</dt>
+                    <dt>Pagos</dt>
+                    <dd>Id : @ViewBag.idPago </dd>
+                    <dd>Tipo de Comprobante : @ViewBag.tipo </dd>
+                    <dd>Numero de Comprobante : @ViewBag.num </dd>
+                    <dd>IGV : @ViewBag.igv </dd>
+                    <dd>Fecha de Emision : @ViewBag.emision </dd>
+                    <dd>Fecha de Pago : @ViewBag.pago </dd>
+                    <dt>Total Pagado : @ViewBag.total </dt>
+                    <dd>
+                        @{
+                            switch (ViewBag.estado)
+                            {
+                                case "1":
+
+                                    <div>Anulado</div>
+                                    break;
+                                case "2":
+                                    <div>Pendiente</div>
+                                    break;
+                                case "3":
+
+                                    <div>Pagado</div>
+                                    break;
+                            }
+                        }
+                    </dd>
+                </dl>
+
+            </div>
+        </div>
+
+

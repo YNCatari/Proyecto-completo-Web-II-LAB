@@ -1,0 +1,67 @@
+﻿@model List<ProyectoWebReservaHotel.Models.tipo_trabajador>
+@{
+    ViewBag.Title = "Index";
+}
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE TIPO TRABAJADOR
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a href="~/TipoTrabajador/AgregarTipoTrabajador"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR TIPO TRABAJADOR</a>
+        </li>
+        <li>
+            <a class="active" href="~/TipoTrabajador/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE TIPO TRABAJADOR</a>
+        </li>
+    </ul>
+</div>
+
+
+
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("Index", "TipoTrabajador", FormMethod.Post))
+    {
+        <div class="text-left">
+            @Html.Label("Buscar: ")
+            @Html.TextBox("Criterio")
+            <button type="submit" class="btn btn-primary">Buscar</button>
+        </div>
+    }
+    <div class="table-responsive">
+        <table class="table table-dark table-sm">
+            <thead>
+                <tr class="text-center roboto-medium">
+
+                    <th>ID</th>
+                    <th>DESCRIPCION</th>
+                    <th>ESTADO</th>
+                    <th>ACCIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr class="text-center">
+                        <td>@(item.idtipo_trabajador)</td>
+                        <td>@(item.descripcion)</td>
+                        <td>@(item.estado == "A" ? "Activo" : "Inactivo" )</td>
+                        <td>
+                            <a href="~/TipoTrabajador/AgregarTipoTrabajador/@item.idtipo_trabajador" class="btn btn-success">Modificar</a>
+                           
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

@@ -1,0 +1,130 @@
+﻿@model ProyectoWebReservaHotel.Models.habitacion
+@{
+    ViewBag.Title = "AgregarModificarTrabajador";
+    List<ProyectoWebReservaHotel.Models.tipo_habitacion> tipousurio = ViewBag.tipo;
+}
+
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR HABITACIÓN
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<!-- Page header -->
+
+
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a class="active" href="~/Habitaciones/AgregarModificarHabitaciones"><i class="fas fa-plus fa-fw"></i> &nbsp; NUEVO HABITACION</a>
+        </li>
+        <li>
+            <a href="~/Habitaciones/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE HABITACION</a>
+        </li>
+    </ul>
+</div>
+
+<!-- Content -->
+<div class="container-fluid">
+    @using (Html.BeginForm("Guardar", "Habitaciones", FormMethod.Post, new { id = "frm-trabajador" }))
+    {
+
+        <fieldset>
+            <legend><i class="far fa-address-card"></i> &nbsp; Información Habitacion</legend>
+            <div class="container-fluid">
+                @Html.HiddenFor(x => x.idhabitacion)
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.idhabitacion)
+                            @Html.TextBoxFor(x => x.idhabitacion, new { @class = "form-control", disabled = true })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.numero)
+                            @Html.TextBoxFor(x => x.numero, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.numero, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.piso)
+                            @Html.TextBoxFor(x => x.piso, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.piso, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.descripcion)
+                            @Html.TextBoxFor(x => x.descripcion, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.descripcion, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.caracteristicas)
+                            @Html.TextBoxFor(x => x.caracteristicas, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.caracteristicas, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.precio_diario)
+                            @Html.TextBoxFor(x => x.precio_diario, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => x.precio_diario, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.estado)
+                            <select name="estado" class="form-control">
+                                <option @(Model.estado == "1" ? "selected" : "") value="1">Inactivo</option>
+                                <option @(Model.estado == "2" ? "selected" : "") value="2">Activo</option>
+                                <option @(Model.estado == "3" ? "selected" : "") value="3">Disponible</option>
+                                <option @(Model.estado == "4" ? "selected" : "") value="4">Reservado</option>
+                                <option @(Model.estado == "5" ? "selected" : "") value="5">Ocupado</option>
+                            </select>
+                            @Html.ValidationMessageFor(x => x.estado, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-4">
+                        <div class="form-group">
+                            @Html.LabelFor(x => x.idtipo_habitacion)
+                            <select name="idtipo_habitacion" class="form-control">
+                                <option @(Model.idtipo_habitacion.Equals("") ? "selected" : "") value="">---Seleccione---</option>
+                                @foreach (var item in tipousurio)
+                                {
+                                    <option @(Model.idtipo_habitacion.Equals(item.idtipo_habitacion) ? "selected" : "") value="@item.idtipo_habitacion">@item.descripcion</option>
+                                }
+                            </select>
+                            @Html.ValidationMessageFor(x => x.idtipo_habitacion, null, new { @class = "label label-danger" })
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </fieldset>
+        <br><br><br>
+
+        <p class="text-center" style="margin-top: 40px;">
+            <button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
+            &nbsp; &nbsp;
+            <button type="submit" class="btn btn-raised btn-info btn-sm"><i class="far fa-save"></i> &nbsp; GUARDAR</button>
+        </p>
+    }
+</div>
+
+

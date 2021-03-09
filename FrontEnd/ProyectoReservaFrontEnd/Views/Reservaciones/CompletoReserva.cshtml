@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Reservaciones";
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link href="~/Source/css/style2.css" rel="stylesheet" />
+}
+<!-- ======= Team Reservaciones ======= -->
+<section id="team" class="team">
+    <div class="content">
+        <div class="content__inner">
+            <div class="container">
+                <h2 class="content__title content__title--m-sm">Reservar una habitación en nuestro hotel y disfruta de una experiencia inolvidable</h2>
+            </div>
+            <div class="container overflow-hidden">
+                <div class="multisteps-form">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+                            <div class="multisteps-form__progress">
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="User Info" disabled>Registro del Huésped</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Address" disabled>Selección de Habitacion</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Order Info" disabled>Registro de la Reserva</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Message" disabled>Registro de Pago</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Message">Completo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-8 m-auto">
+                            <form class="multisteps-form__form">
+                               
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn" >
+                                    <h3 class="multisteps-form__title"></h3>
+                                    <div class="multisteps-form__content" >
+                                        <h1>Reserva Completada</h1>
+                                        <hr class="shb-total-separator">
+                                        <div class="row" >
+                                            <div class="col-md-8 form-group mt-3 mt-md-0">
+                                                <h2>Gracias por Reservar en Hotel Santa Maria</h2>
+                                                <h2>Que tenga un buen dia.</h2>
+                                                <a href="~/GenerarComprobante/Index/@ViewBag.idreserva" class="btn btn-info">Generar Comprobante</a>
+                                                <a href="~/GenerarComprobante/Print/@ViewBag.idreserva" class="btn btn-info">Imprimir Comprobante</a>
+                                            </div>
+                                        </div>
+                                        @*<h4>Forma de Pago</h4>
+                                        <hr class="shb-total-separator">
+                                        <div class="col-md-6 form-group mt-3 mt-md-0">
+                                            <p>Puede abonar por el siguiente link:</p>
+                                            <p><a href="https://pagolink.niubiz.com.pe/pagoseguro/RETAMA/900779/info">https://www.visanetlink.pe/pagoseguro/RETAMA/33324</a></p>
+                                            <p>El monto está predefinido con S/. 60 soles para garantizar la reserva.</p>
+
+                                            <p>
+                                                Si tiene alguna consulta no dude en contactarnos a:<br />
+                                                -Correo electrónico : santamariatacna@gmail.com <br />
+                                                -Whatsapp +51 946792458 <br />
+                                                Muchas gracias.
+                                            </p>
+
+                                        </div>*@
+                                        <div class="button-row d-flex mt-4">
+                                            @*<button class="btn btn-primary js-btn-prev" type="button" title="Prev">Atras</button>*@
+                                            <button class="btn btn-danger ml-auto" type="button" title="Send">Finalizar</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Source/js/function.js"></script>
+</section><!-- End Team Section -->
+
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+
+    $(function () {
+        $('#dob').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+
+    $(function () {
+        $('#dob2').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+</script>
+

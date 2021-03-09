@@ -1,0 +1,117 @@
+﻿@model List<ProyectoWebReservaHotel.Models.pago>
+@{
+    ViewBag.Title = "VerGraficosBarrasPago";
+    string contenido = "";
+    string resultado = "";
+    double valor = 0;
+    int total = 0;
+    double porcentaje = 0.0;
+    double totalporcentaje = 0.0;
+}
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE REPORTES DE PAGOS
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<table class="text-center" style="width:80%">
+    <thead>
+        <tr>
+            <th>Pago</th>
+            <th>Reserva</th>
+            <th>Tipo de Comprobante</th>
+            <th>Numero de Comprobante</th>
+            <th>Igv</th>
+            <th>Total Pago </th>
+            <th>Fecha de Emision</th>
+            <th>Fecha de Pago</th>
+            <th>Valor</th>
+            <th>Porcentaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var q in Model)
+        {
+            total += q.idpago.ToString().Count();
+        }
+        @foreach (var m in Model)
+        {
+            resultado = m.idpago.ToString();
+            valor = m.idpago.ToString().Count();
+            contenido = contenido + "{ name: " + "'" + resultado + "'" + "," + "data: [" + valor + "]" + " },";
+
+            porcentaje = ((valor * 100) / total);
+            totalporcentaje += porcentaje;
+            <tr>
+                <th>@(m.idpago)</th>
+                <th>@(m.idreserva)</th>
+                <th>@(m.tipo_comprobante)</th>
+                <th>@(m.num_comprobante)</th>
+                <th>@(m.igv)</th>
+                <th>@(m.total_pago)</th>
+                <th>@(m.fecha_emision)</th>
+                <th>@(m.fecha_pago)</th>
+                <th>@(m.idpago.ToString().Count())</th>
+                <th>@Math.Round(@porcentaje, 2)%</th>
+            </tr>
+        }
+        <tr>
+            <th></th>
+            <th>Total</th>
+            <th>@total</th>
+            <th>@totalporcentaje %</th>
+        </tr>
+
+    </tbody>
+</table>
+<br />
+<br />
+<div id="container" style="min-width:310px; height:400px; margin:0 auto"></div>
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+
+<script type="text/javascript">
+
+    Highcharts.chart('container', {
+    chart: {
+        type: 'column',
+        options3d: {
+            enabled: true,
+            alpha: 10,
+            beta: 25,
+            depth: 70
+        }
+    },
+    title: {
+        text: 'Grafico de Criterios por Resultados'
+    },
+    subtitle: {
+        text: 'Hotel Santa Maria'
+    },
+    plotOptions: {
+        column: {
+            depth: 25
+        }
+    },
+    xAxis: {
+        categories: ['Pagos de Reservas de Habitaciones', Highcharts.getOptions().lang.shortMonths],
+        labels: {
+            skew3d: true,
+            style: {
+                fontSize: '16px'
+            }
+        }
+    },
+        yAxis: {
+        min: 0,
+        title: {
+            text: 'Cantidad de Habitacion'
+        }
+    },
+    series: [@Html.Raw(contenido)]
+});
+
+</script>

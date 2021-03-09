@@ -1,0 +1,58 @@
+﻿@model ProyectoWebReservaHotel.Models.tipo_trabajador
+@{
+    ViewBag.Title = "AgregarTipoTrabajador";
+}
+<!-- Page header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR TIPO DE TRABAJADOR
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a class="active"  href="~/TipoTrabajador/AgregarTipoTrabajador"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR TIPO TRABAJADOR</a>
+        </li>
+        <li>
+            <a href="~/TipoTrabajador/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA TIPOS DE TRABAJADORES</a>
+        </li>
+    </ul>
+</div>
+
+<!--CONTENT-->
+<!-- Content here-->
+<div class="container-fluid">
+    @using (Html.BeginForm("Guardar", "TipoTrabajador", FormMethod.Post, new { id = "frm-productos" }))
+    {
+        @Html.HiddenFor(x => x.idtipo_trabajador)
+        <div><i class="fas fa-user"></i> &nbsp; Registros de Tipo Trabajador</div>
+        <div class="row">
+           
+            <div class="col-12 col-md-6">
+                <div class="form-group">
+                    <label for="producto_descripcion" class="bmd-label-floating">DESCRIPCION</label>
+                    @Html.TextBoxFor(x => x.descripcion, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(x => x.descripcion, null, new { @class = "label label-danger" })
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="form-group">
+                    <label for="producto_estado" class="bmd-label-floating">ESTADO</label>
+                    <select name="ESTADO" class="form-control">
+                        <option @(Model.estado == "A" ? "selected" : "") value="A">Activo</option>
+                        <option @(Model.estado == "I" ? "selected" : "") value="I">Inactivo</option>
+                    </select>
+                    @Html.ValidationMessageFor(x => x.estado, null, new { @class = "label label-danger" })
+                </div>
+            </div>
+        </div>
+        <p class="text-center" style="margin-top: 40px;">
+            <button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
+            &nbsp; &nbsp;
+            <button type="submit" class="btn btn-raised btn-info btn-sm"><i class="far fa-save"></i> &nbsp; GUARDAR</button>
+        </p>
+    }
+</div>

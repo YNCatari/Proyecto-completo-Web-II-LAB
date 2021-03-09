@@ -1,0 +1,262 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Dashboard</title>
+
+    <!-- Normalize V8.0.1 -->
+    <link rel="stylesheet" href="~/Source/css/normalize.css">
+
+    <!-- Bootstrap V4.3 -->
+    <link rel="stylesheet" href="~/Source/css/bootstrap.min.css">
+    <link href="~/Source/css/highcharts.css" rel="stylesheet" />
+
+    <!-- Bootstrap Material Design V4.0 -->
+    <link rel="stylesheet" href="~/Source/css/bootstrap-material-design.min.css">
+
+    <!-- Font Awesome V5.9.0 -->
+    <link rel="stylesheet" href="~/Source/css/all.css">
+
+    <!-- Sweet Alerts V8.13.0 CSS file -->
+    <link rel="stylesheet" href="~/Source/css/sweetalert2.min.css">
+
+    <!-- Sweet Alert V8.13.0 JS file-->
+    <script src="~/Source/js/sweetalert2.min.js"></script>
+
+    <!-- jQuery Custom Content Scroller V3.1.5 -->
+    <link rel="stylesheet" href="~/Source/css/jquery.mCustomScrollbar.css">
+
+    <!-- General Styles -->
+    <link rel="stylesheet" href="~/Source/css/style.css">
+    <script src="~/Source/js/jquery-3.5.1.min.js"></script>
+
+
+    <script src="~/Source/js/pattern-fill.js"></script>
+    <script src="~/Source/js/accessibility.js"></script>
+    <script src="~/Source/js/export-data.js"></script>
+    <script src="~/Source/js/exporting.js"></script>
+    <script src="~/Source/js/high-contrast-light.js"></script>
+    <script src="~/Source/js/offline-exporting.js"></script>
+    <script src="~/Source/js/highcharts-3d.js"></script>
+    <script src="~/Source/js/highcharts.js"></script>
+    <script src="~/Source/js/highcharts-more.js"></script>
+
+</head>
+<body>
+    <!-- Main container -->
+    <main class="full-box main-container">
+        <!-- Nav lateral -->
+        <section class="full-box nav-lateral">
+            <div class="full-box nav-lateral-bg show-nav-lateral"></div>
+            <div class="full-box nav-lateral-content">
+                <figure class="text-center">
+                    <br />
+                    <img src="~/Source/assets/avatar/Avatar.png" class="img-fluid" alt="Avatar">
+                    <br /><br /><br />
+                </figure>
+                <div class="full-box nav-lateral-bar"></div>
+                <nav class="full-box nav-lateral-menu">
+                    <ul>
+                        <li>
+                            <a href="~/Home/Index"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-users fa-fw"></i> &nbsp; Clientes <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="~/Clientes/AgregarCliente"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Cliente</a>
+                                </li>
+                                <li>
+                                    <a href="~/Clientes/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de clientes</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-dolly"></i> &nbsp; Productos <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="~/Productos/AgregarProducto"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Producto</a>
+                                </li>
+                                <li>
+                                    <a href="~/Productos/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Productos</a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-bed"></i> &nbsp; Habitaciones <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="nav-btn-submenu"><i class="fas fa-door-open"></i> &nbsp; Habitaciones <i class="fas fa-chevron-down"></i></a>
+                                    <ul>
+                                        <li>
+                                            <a href="~/Habitaciones/AgregarModificarHabitaciones"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo Habitaciones</a>
+                                        </li>
+                                        <li>
+                                            <a href="~/Habitaciones/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Habitaciones</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-btn-submenu"><i class="fas fa-door-closed"></i> &nbsp; Tipo de Habitaciones <i class="fas fa-chevron-down"></i></a>
+                                    <ul>
+                                        <li>
+                                            <a href="~/TipoHabitacion/AgregarTipoHabitacion"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo</a>
+                                        </li>
+                                        <li>
+                                            <a href="~/TipoHabitacion/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Listar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu">  <i class="fas fa-concierge-bell"></i>&nbsp; Consumos <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="~/Consumos/AgregarConsumo"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Consumo</a>
+                                </li>
+                                <li>
+                                    <a href="~/Consumos/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Consumos</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu">  <i class="fas fa-desktop"></i>&nbsp; Reservas <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+
+                                <li>
+                                    <a href="~/Reservas/AgregarModificarReservas"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo Reserva</a>
+                                </li>
+                                <li>
+                                    <a href="~/Reservas/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Reservas</a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fas fa-hand-holding-usd fa-fw"></i> &nbsp; Reserva Por Confirmar</a>
+                                </li>
+                              
+
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-user"></i> &nbsp; Usuarios <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="#" class="nav-btn-submenu"><i class="fas fa-users"></i> &nbsp; Trabajadores <i class="fas fa-chevron-down"></i></a>
+                                    <ul>
+                                        <li>
+                                            <a href="~/Trabajador/AgregarModificarTrabajador"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo Trabajador</a>
+                                        </li>
+                                        <li>
+                                            <a href="~/Trabajador/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista de Trabajadores</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-btn-submenu"><i class="fas fa-users-cog"></i> &nbsp; Tipo de Trabajadores <i class="fas fa-chevron-down"></i></a>
+                                    <ul>
+                                        <li>
+                                            <a href="~/TipoTrabajador/AgregarTipoTrabajador"><i class="fas fa-plus fa-fw"></i> &nbsp; Nuevo</a>
+                                        </li>
+                                        <li>
+                                            <a href="~/TipoTrabajador/Index"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Listar</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-btn-submenu"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Reportes <i class="fas fa-chevron-down"></i></a>
+                            <ul>
+                                <li>
+                                    <a href="~/Productos/VerGraficosCircular"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Reportes de Producto</a>
+                                </li>
+                                <li>
+                                    <a href="~/Consumos/VerGraficosBarras"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Reportes de Consumo</a>
+                                </li>
+                                <li>
+                                    <a href="~/Reservas/VerGraficosBarras"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Reportes de Reserva</a>
+                                </li>
+                                <li>
+                                    <a href="~/Reservas/VerGraficosBarrasPago"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Reportes de Pagos</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Page content -->
+        <section class="full-box page-content">
+
+            <nav class="full-box navbar-info">
+                <a href="#" class="float-left show-nav-lateral">
+                    <i class="fas fa-exchange-alt"></i>
+                </a>
+                <a href="#">
+                    <i class="fas fa-user-cog">:@User.Identity.Name</i>
+                    @*<i class="fas fa-user-cog">:</i>*@
+                </a>
+                <a href="/Login/LogOut" class="btn-exit-system">
+                    <i class="fas fa-power-off"></i>
+                </a>
+
+            </nav>
+
+            @RenderBody()
+        </section>
+    </main>
+
+    <!--=============================================
+    =            Include JavaScript files           =
+    ==============================================-->
+    <!-- jQuery V3.4.1 -->
+    <script src="~/Source/js/jquery-3.4.1.min.js"></script>
+
+    <!-- popper -->
+    <script src="~/Source/js/popper.min.js"></script>
+
+    <!-- Bootstrap V4.3 -->
+    <script src="~/Source/js/bootstrap.min.js"></script>
+
+    <script src="~/Source/js/jquery.validate.js"></script>
+    <script src="~/Source/js/jquery.validate.unobtrusive.js"></script>
+
+    <!-- jQuery Custom Content Scroller V3.1.5 -->
+    <script src="~/Source/js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- Bootstrap Material Design V4.0 -->
+    <script src="~/Source/js/bootstrap-material-design.min.js"></script>
+    <script>$(document).ready(function () { $('body').bootstrapMaterialDesign(); });</script>
+
+    <script src="~/Source/js/main.js"></script>
+
+    <script>
+        $(function () {
+            $('#dob').datetimepicker({
+                format: 'YYYY/MM/DD',
+                icons: {
+                    previous: "fas fa-chevron-left",
+                    next: "fas fa-chevron-right",
+                },
+            });
+            $('.input-group-append').click(function () {
+                $('.form-control').trigger('focus');
+            });
+        });
+    </script>
+</body>
+</html>

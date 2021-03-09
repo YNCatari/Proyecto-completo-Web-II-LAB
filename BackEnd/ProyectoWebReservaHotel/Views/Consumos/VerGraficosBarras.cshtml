@@ -1,0 +1,112 @@
+﻿@model List<ProyectoWebReservaHotel.Models.consumo>
+@{
+    ViewBag.Title = "VerGraficosBarras";
+    string contenido = "";
+    string resultado = "";
+    double valor = 0;
+    int total = 0;
+    double porcentaje = 0.0;
+    double totalporcentaje = 0.0;
+}
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE REPORTES DE CONSUMOS
+    </h3>
+    <p class="text-justify">
+
+    </p>
+</div>
+<table class="text-center" style="width:80%">
+    <thead>
+        <tr>
+            <th>Consumo</th>
+            <th>Reserva</th>
+            <th>Producto</th>
+            <th>Cantidad</th>
+            <th>Precio Venta</th>
+            <th>Valor</th>
+            <th>Porcentaje</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var q in Model)
+        {
+            total += q.idconsumo.ToString().Count();
+        }
+        @foreach (var m in Model)
+        {
+            resultado = m.idconsumo.ToString();
+            valor = m.idconsumo.ToString().Count();
+            contenido = contenido + "{ name: " + "'" + resultado + "'" + "," + "data: [" + valor + "]" + " },";
+
+            porcentaje = ((valor * 100) / total);
+            totalporcentaje += porcentaje;
+            <tr>
+                <th>@(m.idconsumo)</th>
+                <th>@(m.idreserva)</th>
+                <th>@(m.idproducto)</th>
+                <th>@(m.cantidad)</th>
+                <th>@(m.precio_venta)</th>
+                <th>@(m.idconsumo.ToString().Count())</th>
+                <th>@Math.Round(@porcentaje, 2)%</th>
+            </tr>
+        }
+        <tr>
+            <th></th>
+            <th>Total</th>
+            <th>@total</th>
+            <th>@totalporcentaje %</th>
+        </tr>
+
+    </tbody>
+</table>
+<br />
+<br />
+
+<figure class="highcharts-figure">
+    <div id="container"></div>
+</figure>
+
+
+<script type="text/javascript">
+
+    Highcharts.chart('container', {
+    chart: {
+        type: 'column',
+        options3d: {
+            enabled: true,
+            alpha: 10,
+            beta: 25,
+            depth: 70
+        }
+    },
+    title: {
+        text: 'Grafico de Criterios por Resultados'
+    },
+    subtitle: {
+        text: 'Hotel Santa Maria'
+    },
+    plotOptions: {
+        column: {
+            depth: 25
+        }
+    },
+    xAxis: {
+        categories: ['Consumo  de Productos', Highcharts.getOptions().lang.shortMonths],
+        labels: {
+            skew3d: true,
+            style: {
+                fontSize: '16px'
+            }
+        }
+    },
+        yAxis: {
+        min: 0,
+        title: {
+            text: 'Cantidad de Consumos'
+        }
+    },
+    series: [@Html.Raw(contenido)]
+});
+
+</script>

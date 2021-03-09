@@ -1,0 +1,147 @@
+﻿
+@{
+    ViewBag.Title = "Reservaciones";
+    List<ProyectoReservaFrontEnd.Models.habitacion> habitacions = ViewBag.habitaciones;
+    ProyectoReservaFrontEnd.Models.cliente cliente = ViewBag.cliente;
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker-standalone.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link href="~/Source/css/style2.css" rel="stylesheet" />
+}
+<!-- ======= Team Reservaciones ======= -->
+<section id="team" class="team">
+    <div class="content">
+        <div class="content__inner">
+            <div class="container">
+                <h2 class="content__title content__title--m-sm">Reservar una habitación en nuestro hotel y disfruta de una experiencia inolvidable</h2>
+            </div>
+            <div class="container overflow-hidden">
+                <div class="multisteps-form">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 ml-auto mr-auto mb-4">
+                            <div class="multisteps-form__progress">
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="User Info" disabled>Registro del Huésped</button>
+                                <button class="multisteps-form__progress-btn js-active" type="button" title="Address">Selección de Habitacion</button>
+                                <button class="multisteps-form__progress-btn" type="button" title="Order Info" disabled>Registro de la Reserva</button>
+                                <button class="multisteps-form__progress-btn" type="button" title="Message" disabled>Registro de Pago</button>
+                                <button class="multisteps-form__progress-btn" type="button" title="Message" disabled>Completo</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-8 m-auto">
+                            <form class="multisteps-form__form">
+
+                                <div class="multisteps-form__panel shadow p-4 rounded bg-white js-active" data-animation="scaleIn">
+                                    <h3 class="multisteps-form__title">Seleccionar Habitacion</h3>
+                                    <hr class="shb-total-separator">
+                                    <br />
+                                    <div class="multisteps-form__content">
+                                        <div class="row">
+                                            <table class="table" style="text-align:center" id="example">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Id</th>
+                                                        <th>Numero</th>
+                                                        <th>Piso</th>
+                                                        <th>Descripcion</th>
+                                                        <th>Carateristicas</th>
+                                                        <th>Precio Diario</th>
+                                                        <th>Estado</th>
+                                                        <th>Tipo Habitacion</th>
+                                                        <th>Acciones</th>
+                                                    </tr>
+                                                </thead>
+
+                                                <tbody>
+                                                    @foreach (var item in habitacions)
+                                                    {
+                                                        <tr>
+                                                            <td>@item.idhabitacion</td>
+                                                            <td>@item.numero</td>
+                                                            <td>@item.piso</td>
+                                                            <td>@item.descripcion</td>
+                                                            <td>@item.caracteristicas</td>
+                                                            <td>@item.precio_diario</td>
+                                                            <td>@(item.estado == "3"? " Desocupado":"")</td>
+                                                            <td>@item.tipo_habitacion.descripcion</td>
+                                                            <td>
+                                                                @*@foreach (ProyectoReservaFrontEnd.Models.cliente c in ViewBag.cliente)
+                                                                {
+                                                                    <a href="~/Reservaciones/RegistroReserva?idhabitacion=@item.idhabitacion&idcliente=@c.idcliente" class="btn btn-danger ml-auto">Seleccionar</a>
+                                                                }*@
+
+                                                                <a href="~/Reservaciones/RegistroReserva?idhabitacion=@item.idhabitacion&idcliente=@cliente.idcliente" class="btn btn-danger ml-auto">Seleccionar</a>
+                                                            </td>
+                                                        </tr>
+                                                    }
+                                                </tbody>
+                                            </table>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                    <br />
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="~/Source/js/function.js"></script>
+</section><!-- End Team Section -->
+
+<script>
+    (function () {
+        'use strict';
+        window.addEventListener('load', function () {
+            var forms = document.getElementsByClassName('needs-validation');
+            var validation = Array.prototype.filter.call(forms, function (form) {
+                form.addEventListener('submit', function (event) {
+                    if (form.checkValidity() === false) {
+                        event.preventDefault();
+                        event.stopPropagation();
+                    }
+                    form.classList.add('was-validated');
+                }, false);
+            });
+        }, false);
+    })();
+
+    $(function () {
+        $('#dob').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+
+    $(function () {
+        $('#dob2').datetimepicker({
+            format: 'DD/MM/YYYY',
+            icons: {
+                previous: "fas fa-chevron-left",
+                next: "fas fa-chevron-right",
+            },
+        });
+        $('.input-group-append').click(function () {
+            $('.form-control').trigger('focus');
+        });
+    });
+</script>

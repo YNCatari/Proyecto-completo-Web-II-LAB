@@ -1,0 +1,124 @@
+﻿
+@{
+    ViewBag.Title = "Portafolio";
+}
+
+<!-- ======= habitacion Section ======= -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+
+        <div class="section-title">
+            <span>Habitaciones</span>
+            <h2>Habitaciones</h2>
+            <p>Habitaciones Simples, Dobles y Matrimoniales</p>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <ul id="portfolio-flters">
+                    <li data-filter="*" class="filter-active">Todas las Habitaciones</li>
+                    <li data-filter=".filter-card">Habitaciones Simples</li>
+                    <li data-filter=".filter-app">Habitaciones Dobles</li>
+                    <li data-filter=".filter-web">Habitaciones Matrimoniales</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
+
+            <!-- ======= habitacion Simples ======= -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <img src="~/Source/img/portfolio/simple-01.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Estandar</h4>
+                    <p>Habitaciones Simples</p>
+                    @*<a href="~/Source/img/portfolio/triple-01.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesSimples1" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <img src="~/Source/img/portfolio/simple-02.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Especial</h4>
+                    <p>Habitaciones Simples</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesSimples2" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                <img src="~/Source/img/portfolio/simple-03.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Premium Santa Maria</h4>
+                    <p>Habitaciones Simples</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesSimples3" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <!-- ======= habitacion Dobles ======= -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="~/Source/img/portfolio/doble-01.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Estandar</h4>
+                    <p>Habitaciones Dobles</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Ver Imagen"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesDobles1" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="~/Source/img/portfolio/doble-02.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Especial</h4>
+                    <p>Habitaciones Dobles</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesDobles2" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <img src="~/Source/img/portfolio/doble-03.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Premium Santa Maria</h4>
+                    <p>Habitaciones Dobles</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesDobles3" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <!-- ======= habitacion Matrimoniales ======= -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <img src="~/Source/img/portfolio/matrimonial-01.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Estandar</h4>
+                    <p>Habitaciones Matrimoniales</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesMatrimonial1" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <img src="~/Source/img/portfolio/matrimonial-02.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Especial</h4>
+                    <p>Habitaciones Matrimoniales</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesMatrimonial2" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                <img src="~/Source/img/portfolio/matrimonial-03.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Habitacion Premium Santa Maria</h4>
+                    <p>Habitaciones Matrimoniales</p>
+                    @*<a href="~/Source/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>*@
+                    <a href="~/Habitaciones/HabitacionesDetallesMatrimonial3" class="details-link" title="Ver Mas Detalles"><i class="bx bx-link"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End habitacion Section -->

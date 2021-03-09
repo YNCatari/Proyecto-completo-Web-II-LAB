@@ -1,0 +1,54 @@
+﻿
+@{
+    Layout = null;
+    ProyectoReservaFrontEnd.Models.cliente cliente = ViewBag.cliente;
+    ProyectoReservaFrontEnd.Models.habitacion habitacion = ViewBag.habitacion;
+    ProyectoReservaFrontEnd.Models.reserva reserva = ViewBag.reserva;
+    ProyectoReservaFrontEnd.Models.pago pago = ViewBag.pago;
+    ProyectoReservaFrontEnd.Models.trabajador trabajador = ViewBag.trabajador;
+}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/Source/css/style3.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="top-box">
+            <p>
+                <span class="left-icon">&#x2190;</span>FACTURA<span class="right-icon">&#xb7;&#xb7;&#xb7;</span>
+            </p>
+        </div>
+        <div class="middle-box">
+            <h1>@pago.total_pago <span>soles</span></h1>
+            <p>Total del Pago</p>
+        </div>
+        <div class="card-details">
+            <h2>Cliente, </h2>
+            <div class="card-num-field-group">
+                <h4>@(cliente.nombres) @(cliente.nombres)</h4>
+                <p>Direccion: <span>@cliente.direccion</span></p>
+                <p>Correo: <span>@cliente.email</span></p>
+                <p>@cliente.tipo_documento : <span>@cliente.numero_documento</span></p>
+            </div><br>
+            <hr>
+            <div class="card-num-field-group">
+                <p>@habitacion.numero : <span>102</span></p>
+                <p>Tipo de Habitacion: <span>@habitacion.tipo_habitacion.descripcion</span></p>
+                <p>Descripcion: <span>@habitacion.descripcion</span></p>
+                <p>Precio: <span>S/. @habitacion.precio_diario</span></p>
+            </div><br>
+            <hr>
+            <div class="card-num-field-group">
+                <p>Fecha de Entrada: <span>@reserva.fecha_ingreso</span></p>
+                <p>Fecha de Salida: <span>@pago.fecha_pago</span></p>
+                <p>Fecha de Pago: <span>@reserva.fecha_salida</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
